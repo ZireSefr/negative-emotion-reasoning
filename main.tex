@@ -1,0 +1,198 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{hyperref}
+
+\title{\textbf{The Impact of Negative Emotions on Cognitive Bias:\\ Anxiety, Fear, and Reasoning with Modus Tollens in Obligation Conditionals}}
+\author{
+Houman Hassanvand \\
+Department of Philosophy, Linguistics and Theory of Science (FLoV) \\
+University of Gothenburg
+}
+\date{April 2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Objective}
+To examine the impact of negative emotions, specifically anxiety and fear, on logical reasoning skills within the framework of obligation conditionals with necessary antecedents. The research seeks to compare how participants perform in reasoning tasks when presented in a neutral, non-narrative context versus a scenario designed to induce anxiety or fear.
+
+\section*{2. Background}
+Conditional reasoning is often influenced by how the necessity of the outcome is perceived. In this study, we distinguish between obligation and factual conditionals based on the framework proposed by Cramer, Hölldobler, and Ragni (2021).
+
+An \textit{obligation conditional} is a statement where the consequent is perceived as required, morally, legally, or even physically, if the antecedent is true. For example, ``If you borrow a book, then you must return it'' expresses a normative rule. Even everyday statements like ``If it rains, then the streets are wet'' can be interpreted as obligation conditionals when the outcome is seen as inevitable or necessary due to natural laws \cite[p.~2338]{cramer2021modus}.
+
+In contrast, \textit{factual conditionals} describe expected or likely outcomes, but without implying that the consequent is necessary. For instance, ``If you leave your sandwich out, it might get eaten by seagulls'' expresses a possibility, not a rule or requirement.
+
+This distinction is important because prior research shows that people tend to reason more reliably with obligation conditionals, especially in Modus Tollens inferences \cite{cramer2021modus}. At the same time, other work (e.g., \cite{blanchette2010affect, goel2003emotion}) shows that emotionally charged content impairs logical reasoning performance. Under emotional stress, people are more likely to rely on intuitive, error-prone processes.
+
+This study examines whether anxiety and fear interfere with participants’ ability to reason correctly using Modus Tollens with obligation conditionals. Since these conditionals typically produce lower error rates, any drop in performance under emotional conditions can more confidently be attributed to the influence of emotion, rather than task complexity.
+
+This research is further grounded in dual-process theories of reasoning \cite{khemlani2018facts}, which propose that people reason using two systems:
+\begin{itemize}
+    \item \textbf{System 1}, which is fast, automatic, and intuitive
+    \item \textbf{System 2}, which is slower, deliberate, and analytical
+\end{itemize}
+Emotional stress may lead individuals to rely more heavily on System 1, increasing the likelihood of reasoning errors, particularly on tasks that require careful, logical analysis. This framework supports the idea that negative emotional states such as anxiety or fear could impair logical performance even when the underlying reasoning task (e.g., Modus Tollens with obligation conditionals) is relatively straightforward.
+
+\section*{3. Hypotheses}
+\begin{itemize}
+    \item \textbf{Null Hypothesis (H\textsubscript{0}):} Anxiety or fear does not affect performance on logical reasoning tasks. Participants will perform equally well under emotional and neutral conditions.
+    \item \textbf{Alternative Hypothesis (H\textsubscript{1}):} Anxiety or fear negatively affects performance on logical reasoning tasks. Participants will make more errors under emotional (anxiety/fear) conditions compared to neutral ones.
+\end{itemize}
+
+\section*{4. Methodology}
+
+\subsection*{4.1 Participants}
+A total of 20 adult participants took part in this study. Participants were self-selected after responding to online advertisements posted on social media platforms and local community boards, which invited volunteers to participate. Participation was entirely voluntary, and no monetary compensation was provided.
+
+All participants completed both the emotional (anxiety/fear) and neutral tasks. The order in which they received these tasks was randomized based on whether their age was an odd or even number.
+
+Data collection was stopped once 20 participants had completed the study, which was the predefined target sample size.
+
+\subsection*{4.2 Experimental Design}
+Participants completed two tasks: one designed to induce anxiety or fear, and another presented in a neutral context. Each task involved reading a short scenario followed by a logical reasoning question based on a Modus Tollens structure.
+
+\textbf{Anxiety/Fear Scenario:} Participants read a short narrative based on George Orwell’s \textit{Nineteen Eighty-Four} \cite{orwell1949}, containing vivid and distressing details intended to evoke anxiety or fear.
+
+\textit{Question:} \\
+``If the Party controls the truth, then freedom must be slavery. Given that freedom is not slavery, does the Party not control the truth?''
+
+\textit{Response Options:}
+\begin{itemize}
+    \item Yes (The Party does not control the truth.)
+    \item No (The Party controls the truth.)
+    \item I don’t know
+\end{itemize}
+
+\textbf{Neutral Scenario:} Participants read a neutral, everyday description unrelated to emotional content.
+
+\textit{Question:} \\
+``If it is raining, then the streets must be wet. Given that the streets are not wet, is it raining?''
+
+\textit{Response Options:}
+\begin{itemize}
+    \item Yes (It is raining.)
+    \item No (It is not raining.)
+    \item I don’t know
+\end{itemize}
+
+(The full text of both scenarios can be found in Appendix A.)
+
+\subsection*{4.3 Measures}
+Accuracy in reasoning with obligation conditionals was assessed in both the emotional and neutral conditions using participants’ responses to Modus Tollens questions. Each response was categorized as correct or incorrect based on formal logic.
+
+For the purposes of this analysis, only definitive responses (“Yes” or “No”) were included when calculating accuracy and error rates. “I don’t know” responses were excluded from the accuracy analysis, as they do not reflect an attempt to apply logical reasoning. This decision ensures that the results represent only those participants who engaged with the task logically.
+
+The error rate was calculated as the proportion of incorrect “Yes” or “No” answers out of the total number of definitive responses for each condition. Comparing these error rates between the emotional and neutral conditions provides insight into how negative emotions may impair logical reasoning performance.
+\subsection*{4.4 Data Analysis}
+
+Reasoning performance across both conditions will be compared to determine whether there is a significant difference in participants’ error rates. Fisher’s exact test will be used to analyze the difference in the proportion of incorrect responses between the anxiety/fear condition and the neutral condition.
+
+Fisher’s exact test is a non-parametric statistical method used to assess whether there is a non-random association between two categorical variables, in this case, \textit{condition type} (emotional vs. neutral) and \textit{response accuracy} (correct vs. incorrect). It is particularly well-suited for small sample sizes, making it ideal for this study.
+
+Mathematically, Fisher’s exact test calculates the probability of observing a 2x2 contingency table with the same marginal totals as the observed table, assuming the null hypothesis of independence. The exact probability for a specific table configuration is given by:
+
+\[
+P = \frac{ \binom{a+b}{a} \binom{c+d}{c} }{ \binom{n}{a+c} }
+\]
+
+where:
+\begin{itemize}
+    \item $a$, $b$, $c$, $d$ are the cell counts in a 2x2 contingency table
+    \item $n = a + b + c + d$ is the total number of observations
+    \item $\binom{n}{k}$ is the binomial coefficient (``n choose k'')
+\end{itemize}
+
+The test computes the p-value by summing the probabilities of all tables that are equally or more extreme than the observed table, under the assumption of independence.
+
+A p-value less than 0.05 will be considered statistically significant, indicating that the observed difference in reasoning performance is unlikely to have occurred by chance.
+
+Additionally, the analysis will examine whether participants are more prone to errors in the anxiety- or fear-inducing condition compared to the neutral one, providing insight into the potential cognitive impact of negative emotional states.
+\section*{5. Results}
+
+The dataset included 20 participants, each of whom answered one question in an emotional (anxiety/fear) condition and one in a neutral condition. Responses were categorized as either correct, incorrect, or “I don’t know.” For the analysis, only definitive responses (“Yes” or “No”) were included, while “I don’t know” answers were excluded, in line with the methodology.
+
+In the neutral condition, 15 participants answered correctly, 4 answered incorrectly, and 1 selected “I don’t know.” In the emotional condition, 11 participants answered correctly, 6 answered incorrectly, and 3 selected “I don’t know.”
+
+After removing non-definitive responses, the final contingency table was:
+
+\begin{center}
+\begin{tabular}{lcc}
+\textbf{Condition} & \textbf{Correct} & \textbf{Incorrect} \\
+\hline
+Neutral & 15 & 4 \\
+Emotional & 11 & 6 \\
+\end{tabular}
+\end{center}
+
+Fisher’s exact test was applied to assess whether the difference in error rates between conditions was statistically significant. The two-tailed p-value was found to be:
+
+\[
+p = 0.47
+\]
+
+Since this value is greater than the standard threshold of $\alpha = 0.05$, we conclude that the observed difference in reasoning performance between the emotional and neutral conditions is \textbf{not statistically significant}.
+
+\section*{6. Conclusion}
+
+This study aimed to investigate whether negative emotions, specifically anxiety and fear, impair logical reasoning with obligation conditionals using Modus Tollens. While participants showed a slight decrease in performance under emotional conditions, the difference was not statistically significant ($p = 0.47$). This supports the null hypothesis and suggests that the emotional manipulation used in this study did not significantly affect reasoning accuracy.
+
+These findings contrast with earlier research, such as Blanchette and Richards (2010) and Goel and Dolan (2003), which found that emotional content can impair logical thinking. This discrepancy may be due to differences in sample size, emotional intensity, or task design. For example, the emotional narratives used here may not have been strong enough to produce a measurable cognitive effect.
+
+Importantly, a possible methodological limitation is that the two reasoning tasks used may differ in logical structure. Based on the classification by Cramer, Hölldobler, and Ragni (2021), the emotional condition involved an obligation conditional, while the neutral task may have involved a factual conditional. Since people tend to reason more accurately with obligation conditionals, this asymmetry could have influenced results and may partially explain the lack of a significant effect. Acknowledging this helps improve the study's transparency and sets a foundation for refinement.
+
+Future research should aim to use structurally equivalent conditionals across conditions to ensure fair comparison. Studies with larger participant pools, stronger emotional stimuli, or additional metrics such as reaction times or physiological measures may provide a deeper understanding of how emotions affect reasoning. Despite limitations, this study contributes to the growing literature on how affect interacts with logic and highlights the importance of precise experimental design in cognitive research.
+
+
+\bibliographystyle{apalike}
+\bibliography{references}
+\appendix
+\section*{Appendix A: Full Narrative Scenarios and Reasoning Questions}
+
+\subsection*{A.1 Anxiety/Fear-Inducing Scenario}
+
+In the totalitarian state of \textit{Oceania}, Big Brother watches every move of its citizens. People live in constant fear of the \textit{Thought Police}, who punish any form of dissent. The government controls all information, rewriting history to suit its needs. Citizens are forced to participate in public executions and are subjected to relentless propaganda. The Party's main slogans---\textit{``War is Peace, Freedom is Slavery, Ignorance is Strength''}---are drilled into every individual's mind.
+
+\textit{Winston Smith}, a low-ranking member of the Party, secretly hates the Party and dreams of rebellion. However, he knows that expressing his true feelings would lead to torture and death. The atmosphere of fear and oppression permeates every aspect of life, stifling any hope of freedom or individuality.
+
+\textbf{Reasoning Question:} \\
+\textit{If the Party controls the truth, then freedom must be slavery. Given that freedom is not slavery, does the Party not control the truth?}
+
+\textbf{Response Options:}
+\begin{itemize}
+    \item Yes (The Party does not control the truth.)
+    \item No (The Party controls the truth.)
+    \item I don’t know
+\end{itemize}
+
+\subsection*{A.2 Neutral Scenario}
+
+Imagine you are checking the weather forecast for today. The forecast includes various weather conditions and their expected outcomes. The day starts with clear skies and mild temperatures in the morning, making it ideal for outdoor activities like jogging or a walk in the park.
+
+By midday, the temperature is expected to rise slightly, with a gentle breeze providing a pleasant atmosphere. In the afternoon, there is a chance of light rain showers, so it's a good idea to carry an umbrella if you're planning to be outside. The evening will bring cooler temperatures, perfect for relaxing at home or enjoying a quiet dinner out. Throughout the day, the weather remains generally stable, without any extreme conditions.
+
+\textbf{Reasoning Question:} \\
+\textit{If it is raining, then the streets must be wet. Given that the streets are not wet, is it raining?}
+
+\textbf{Response Options:}
+\begin{itemize}
+    \item Yes (It is raining.)
+    \item No (It is not raining.)
+    \item I don’t know
+\end{itemize}
+\section*{Appendix B: Summary of Response Data}
+
+\begin{center}
+\begin{tabular}{lccc}
+\textbf{Condition} & \textbf{Correct} & \textbf{Incorrect} & \textbf{I don't know} \\
+\hline
+Neutral & 15 & 4 & 1 \\
+Emotional & 11 & 6 & 3 \\
+\end{tabular}
+\end{center}
+
+\end{document}
