@@ -1,6 +1,6 @@
 # The Impact of Negative Emotions on Cognitive Bias
 
-This is a master's thesis project investigating how anxiety and fear affect logical reasoning using Modus Tollens and obligation conditionals.
+This is a master's project investigating how anxiety and fear affect logical reasoning using Modus Tollens and obligation conditionals.
 
 ## Author
 
